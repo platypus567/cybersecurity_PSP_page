@@ -1,0 +1,228 @@
+@import url(https://fonts.googleapis.com/css?family=Lexend+Deca:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FAF9F6;
+}
+#maindiv{
+    background-color: #FAF9F6;
+    height: 100%;
+}
+#mainhead{
+    font-family: 'Lexend Deca',sans-serif;
+    color: #000000;
+    font-weight: 800;
+}
+#subhead{
+    color: #000000;
+    font-family: 'Lexend Deca',sans-serif;
+    font-weight: 600;
+    border-bottom: black solid 1px;
+    width: 50%;
+    margin: 0;
+}
+#topcard{
+
+}
+#secondComponent{
+    margin-top: 30px;
+    background-color: #000000;
+    
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    border-color: transparent;
+    transition: 1s ease-in-out;
+    font-family: 'Lexend Deca',sans-serif;
+    
+}
+#secondComponent:hover{
+    box-shadow: 10px 10px #353839;
+}
+
+#secondHeader{
+    color: black;
+}
+#readPaper{
+    background-color: #20C20E;
+    border-color: transparent;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: 0.5s;
+    font-family: 'Lexend Deca',sans-serif;
+    padding: 15px 10px;
+}
+#readPaper:hover{
+    color: #20C20E;
+    background-color: transparent;
+    border: 1px solid white;
+}
+#firstPar{
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    margin-left: 15px;
+    text-align: left;
+}
+#firstCardHead{
+    background-color: #FAF9F6;
+    padding-top: 15px;
+    border-radius: 25px 25px 0 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: black;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    
+
+}
+#cardrow{
+    display: flex;
+    justify-content: space-evenly;
+}
+#thirdComponent{
+    margin-top: 30px;
+    background-color: #000000;
+    
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    border-color: transparent;
+    transition: 1s;
+    font-family: 'Lexend Deca',sans-serif;
+    
+}
+#thirdComponent:hover{
+    box-shadow: 10px 10px #353839;
+}
+#secondCardHead{
+    background-color: #FAF9F6;
+    padding-top: 15px;
+    border-radius: 25px 25px 0 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: black;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+#exploreTools{
+    background-color: #20C20E;
+    border-color: transparent;
+    border-radius: 20px;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    font-family: 'Lexend Deca',sans-serif;
+    padding: 15px 10px;
+    transform: translate(0,32px);
+}
+#exploreTools:hover{
+    color: #20C20E;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+
+
+#secondPar{
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    margin-left: 15px;
+    text-align: left;
+}
+
+#toolsDiv{
+   
+   display: none;
+   padding-top: 100px;
+}
+.links{
+    margin-top: 20px;
+}
+#paperText{
+    display: none;
+}
+
+#fourthComponent{
+    margin-top: 30px;
+    background-color: #000000;
+    
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    border-color: transparent;
+    transition: 1s ease-in-out;
+    font-family: 'Lexend Deca',sans-serif;
+    color: white;
+}
+#fourthComponent:hover{
+    box-shadow: 10px 10px #353839;
+}
+#thirdCardHead{
+    color: black;
+    background-color: #FAF9F6;
+    padding-top: 15px;
+    border-radius: 25px 25px 0 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: black;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+#playGame{
+    background-color: #20C20E;
+    border-color: transparent;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    transition: 0.5s;
+    font-family: 'Lexend Deca',sans-serif;
+    padding: 15px 10px;
+}
+#playGame:hover{
+    color: #20C20E;
+    background-color: transparent;
+    border: 1px solid white;
+}
+#thirdPar{
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    margin-left: 15px;
+    text-align: left;
+}
+
+
+
+
+
+
+@media (max-width: 800px){
+    #cardRow{
+        display: flex;
+        flex-direction: column;
+    }
+}
