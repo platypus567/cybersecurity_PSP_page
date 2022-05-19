@@ -138,7 +138,22 @@ body{
     background-color: transparent;
     border: 1px solid white;
 }
-
+#reset{
+    background-color: #20C20E;
+    border-color: transparent;
+    border-radius: 20px;
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    font-family: 'Lexend Deca',sans-serif;
+    padding: 15px 30px;
+}
+#reset:hover{
+    color: #20C20E;
+    background-color: transparent;
+    border: 1px solid white;
+}
 
 
 #secondPar{
